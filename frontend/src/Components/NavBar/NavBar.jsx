@@ -1,4 +1,3 @@
-import { keniBurk, scrollToAbout, scrollToContact, scrollToReviews, scrollToServices } from "../../Assets/Funcs/functions";
 import './NavBar.css'
 
 

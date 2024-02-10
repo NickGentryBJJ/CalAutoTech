@@ -1,5 +1,6 @@
 import Footer from "./Components/footer/footer";
 import NavBar from "./Components/NavBar/NavBar";
+import Reviews from "./Components/Reviews/Reviews";
 import Services from "./Components/Services/Services";
 import Top from "./Components/top/top";
 
@@ -9,6 +10,7 @@ function App() {
       <NavBar/>
       <Top/>
       <Services/>
+      <Reviews/>
       <Footer/>
     </>
   );

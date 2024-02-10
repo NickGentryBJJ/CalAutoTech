@@ -26,34 +26,34 @@ const Services = () => {
 
     return (
         // <!-- SERVICES SECTION -->
-        <div id="services-section" class="services-sec">
-            <h1 class="services-title">Cal Auto Tech's Services</h1>
-            <div class="services">
-                <span class="services-text">
+        <div id="services-section" className="services-sec">
+            <h1 className="services-title">Cal Auto Tech's Services</h1>
+            <div className="services">
+                <span className="services-text">
                     Unrivaled excellence in mobile rim repair at Cal Auto Tech 
                 </span>
             </div>
-            <div class="before-after-pics">
-                <div class="left-b-a">
-                    <div class="picture-pair">
-                        <img class="b-a-pic-left" data-aos="slide-in" src={require("../../Assets/Images/Rims/2ndtop.JPEG")} alt=""/>
-                        <img class="b-a-pic-right" data-aos="slide-in" src={require("../../Assets/Images/Rims/2ndbottom.JPEG")} alt=""/>
+            <div className="before-after-pics">
+                <div className="left-b-a">
+                    <div className="picture-pair">
+                        <img className="b-a-pic-left" data-aos="slide-in" src={require("../../Assets/Images/Rims/2ndtop.JPEG")} alt=""/>
+                        <img className="b-a-pic-right" data-aos="slide-in" src={require("../../Assets/Images/Rims/2ndbottom.JPEG")} alt=""/>
                     </div>
-                    <div class="picture-pair">
-                        <img class="b-a-pic-left" data-aos="slide-in" src={require("../../Assets/Images/Rims/3rdtop.JPEG")} alt="" />
-                        <img class="b-a-pic-right" data-aos="slide-in" src={require("../../Assets/Images/Rims/3rdbottom.JPEG")} alt="" />
+                    <div className="picture-pair">
+                        <img className="b-a-pic-left" data-aos="slide-in" src={require("../../Assets/Images/Rims/3rdtop.JPEG")} alt="" />
+                        <img className="b-a-pic-right" data-aos="slide-in" src={require("../../Assets/Images/Rims/3rdbottom.JPEG")} alt="" />
                     </div>
-                    <div class="picture-pair">
-                        <img class="b-a-pic-left" data-aos="slide-in" src={require("../../Assets/Images/Rims/4thtop.JPEG")} alt="" />
-                        <img class="b-a-pic-right" data-aos="slide-in" src={require("../../Assets/Images/Rims/4thbottom.JPEG")} alt="" />
+                    <div className="picture-pair">
+                        <img className="b-a-pic-left" data-aos="slide-in" src={require("../../Assets/Images/Rims/4thtop.JPEG")} alt="" />
+                        <img className="b-a-pic-right" data-aos="slide-in" src={require("../../Assets/Images/Rims/4thbottom.JPEG")} alt="" />
                     </div>
-                    <div class="picture-pair">
-                        <img class="b-a-pic-left" data-aos="slide-in" src={require("../../Assets/Images/Rims/5thtop.JPEG")} alt="" />
-                        <img class="b-a-pic-right" data-aos="slide-in" src={require("../../Assets/Images/Rims/5thbottom.PNG")} alt="" />
+                    <div className="picture-pair">
+                        <img className="b-a-pic-left" data-aos="slide-in" src={require("../../Assets/Images/Rims/5thtop.JPEG")} alt="" />
+                        <img className="b-a-pic-right" data-aos="slide-in" src={require("../../Assets/Images/Rims/5thbottom.PNG")} alt="" />
                     </div>
-                    <div class="picture-pair">
-                        <img class="b-a-pic-left" data-aos="slide-in" src={require("../../Assets/Images/Rims/lasttop.JPEG")} alt="" />
-                        <img class="b-a-pic-right" data-aos="slide-in" src={require("../../Assets/Images/Rims/lastbottom.JPEG")} alt="" />
+                    <div className="picture-pair">
+                        <img className="b-a-pic-left" data-aos="slide-in" src={require("../../Assets/Images/Rims/lasttop.JPEG")} alt="" />
+                        <img className="b-a-pic-right" data-aos="slide-in" src={require("../../Assets/Images/Rims/lastbottom.JPEG")} alt="" />
                     </div>
                 </div>
             </div>

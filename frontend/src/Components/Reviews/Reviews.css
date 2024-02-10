@@ -1,0 +1,53 @@
+/* reviews css */
+.reviews {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+.reviews-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 77px;
+}
+.yelp-review {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    animation: slide 40s linear infinite; 
+    max-height: 275px;
+    min-height: 275px;
+    overflow: hidden;
+}
+
+.reviews-section {
+    margin-top: 5rem;
+    height: 28rem;
+}
+.paused {
+    animation-play-state: paused;
+}
+
+.reviews:hover .yelp-review {
+    animation-play-state: paused;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(-50%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    75% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+/* end reviews css */
