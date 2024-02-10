@@ -1,0 +1,111 @@
+.body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 115px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    
+}
+.top-left {
+    width: 100%;
+    margin-right: 5%;
+}
+#main-pic-pair{
+    width: 50%;
+}
+
+/* TEXT */ 
+.title, .reviews-title, .services-title, .about-title{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 65px;
+    margin-bottom: 50px;
+    color: black;
+    text-align: center;
+}
+.title{
+    margin-bottom: 40px;
+}
+
+.services-title{
+    margin-top: 115px;
+}
+.about-title{
+    padding-top: 115px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.intro-statement, .services-text, .top-state{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    width: 100%;   
+    color: #333;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+.bottom-state{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: black;
+    text-align: center;
+}
+
+
+/* TOP SECTION SLIDE FUNC */
+.top-left {
+    position: relative;
+    overflow: hidden;
+}
+
+.title{
+    opacity: 0;
+    transform: translateY(-50px); /* Initial position above the screen */
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+.title {
+    animation-name: dropIn;
+}
+.top-state {
+    opacity: 0;
+    transform: translateX(50px); /* Initial position to right of the screen */
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.top-state {
+    animation-name: slideIn;
+    animation-delay: 0.5s; /* Delay the slideIn animation slightly */
+}
+.bottom-state {
+    opacity: 0;
+    transform: translateX(50px); /* Initial position to right of the screen */
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.bottom-state {
+    animation-name: slideIn;
+    animation-delay: 1s; /* Delay the slideIn animation slightly */
+}
+
+@keyframes dropIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+

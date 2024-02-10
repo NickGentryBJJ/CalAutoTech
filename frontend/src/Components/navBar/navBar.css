@@ -1,0 +1,41 @@
+#stickyHeader{
+    position: fixed;
+    top: 0px;
+}
+/* navbar */
+
+.nav-logo  {
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.header-links-wrapper{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+    background-color:#33333396;
+    align-items:center;
+    letter-spacing: 2px;
+    z-index:1;
+}
+
+.header-links{
+    margin:0px;
+    font-family: var(--main-font);
+    color: white;
+    cursor:pointer;
+    text-decoration: none;
+
+}
+.header-links:hover{
+    color:#010000cb
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  
+}
