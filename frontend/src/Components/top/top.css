@@ -109,3 +109,57 @@
     }
 }
 
+
+/*  */
+
+.services-sec, .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services {
+    margin-bottom: 75px;
+    color: #0f0f0f;
+}
+
+/* before/after pic functionality */
+
+.before-after-pics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-b-a {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.picture-pair {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+.b-a-pic-left, .main-pic-left {
+    max-height: 25rem;
+    width: 20rem;
+    opacity: 0;
+    transform: translateX(-50%); /* Start offscreen to the left */
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+.b-a-pic-right, .main-pic-right {
+    max-height: 25rem;
+    width: 20rem;
+    opacity: 0;
+    transform: translateX(90%); /* Start offscreen to the right */
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+
+.slide-in {
+    transform: translateX(0); /* Move to the original position */
+    opacity: 1;
+}
