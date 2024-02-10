@@ -57,4 +57,5 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-image: url('./Assets/Images/jake.jpg');
-  }
+	overflow-x: hidden;
+}
