@@ -59,3 +59,111 @@ body{
     background-image: url('./Assets/Images/jake.jpg');
 	overflow-x: hidden;
 }
+
+/* MOBILE GLOBAL CSS */
+
+@media only screen and  (max-width: 768px) {
+    
+    /* HIDDEN DESKTOP DIVS */
+    #reviews-section{
+        display: none;
+    }
+    .exit-statement{
+        display: none;
+    }
+    #reviewsss{
+        display: none;
+    }
+    .bottom-footer-wrapper{
+        display: none;
+    }
+    
+    /* MISC */
+    :host {
+        overflow: auto;
+    }
+    body{
+        position: absolute;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    /* NAVBAR */
+    .links{
+        display: flex;
+        justify-content: space-around;
+        width: 65%;
+        font-size: 12px;
+    }
+    .header-links-wrapper{
+        height: 70px;
+    }
+    .nav-logo{
+        width: 4.5rem;
+    }
+
+    /* CONTENT */
+    .top-left{
+        margin-bottom: 7%;
+    }
+
+    /* BEFORE AND AFTER PICS */
+    .b-a-pic-right, .b-a-pic-left{
+        max-width: 24%;
+        max-height: 119px;
+    }
+    .kokachin{
+        width: 2rem;
+    }
+    
+    /* FOOTER */
+    .footer-wrapper{
+        height: 32rem;
+    }
+    .bottom-footer-wrapper-mobile{
+        display: block;
+        margin-top: 10%;
+    }
+    .bottom-footer-container{
+        margin: 0;
+    }
+    .foot-title{
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .exit-statement-mobile{
+        display: block;
+    }
+    .want-email, .want-phone{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .contact-foot, .email-foot, .phone-foot {
+        align-items: center;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .contact-foot{
+        justify-content: start;
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+    .exit-statement-mobile {
+        line-height: 1;
+        font-size: 24px;
+    }
+    .my-row{
+        font-size: 12px;
+    }
+    .year-container {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 30%;
+    }
+}
