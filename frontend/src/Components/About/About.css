@@ -1,0 +1,29 @@
+/* about section css */
+.about-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-blurb {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2.0;
+    font-size: 24px;
+    font-family: 'Nunito';
+    margin-bottom: 150px;
+    color: #0f0f0f;
+    
+}
+
+.about-blurb p {
+    margin-bottom: 50px;
+}
+
+.last-words-about{
+    font-weight: 500;
+    font-family: 'Permanent Marker', cursive;
+    color: #333;
+}

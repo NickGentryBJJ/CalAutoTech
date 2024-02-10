@@ -1,3 +1,4 @@
+import About from "./Components/About/About";
 import Footer from "./Components/footer/footer";
 import NavBar from "./Components/NavBar/NavBar";
 import Reviews from "./Components/Reviews/Reviews";
@@ -11,6 +12,7 @@ function App() {
       <Top/>
       <Services/>
       <Reviews/>
+      <About/>
       <Footer/>
     </>
   );
