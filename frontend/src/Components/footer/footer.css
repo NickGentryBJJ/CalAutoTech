@@ -149,3 +149,56 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .footer-wrapper{
+        height: 32rem;
+    }
+    .bottom-footer-wrapper-mobile{
+        display: block;
+        margin-top: 10%;
+    }
+    .bottom-footer-container{
+        margin: 0;
+    }
+    .foot-title{
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .exit-statement-mobile{
+        display: block;
+    }
+    .want-email, .want-phone{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .contact-foot, .email-foot, .phone-foot {
+        align-items: center;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .contact-foot{
+        justify-content: start;
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+    .exit-statement-mobile {
+        line-height: 1;
+        font-size: 24px;
+    }
+    .my-row{
+        font-size: 12px;
+    }
+    .year-container {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 30%;
+    }
+    .bottom-footer-wrapper{
+        display: none;
+    }
+    .foot-left{
+        justify-content: space-between;
+    }
+}

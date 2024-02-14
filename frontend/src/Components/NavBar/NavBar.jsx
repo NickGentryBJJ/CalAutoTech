@@ -2,12 +2,7 @@ import './NavBar.css'
 
 
 const NavBar = () => {
-    function keniBurk() {
-        var body = document.body;
-        var html = document.documentElement;
-        
-        var topOffset = Math.max(body.scrollTop, html.scrollTop);
-    
+    function keniBurk() {    
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
@@ -39,10 +34,10 @@ const NavBar = () => {
                 <img onClick={keniBurk} className="nav-logo" src={require("../../Assets/Images/Cal_Logo.png")} alt=""/>
             </div>
             <div className="links">
-                <a onClick={scrollToServices} className="header-links">SERVICES</a>
-                <a onClick={scrollToReviews} className="header-links" id="reviewsss">REVIEWS</a>
-                <a onClick={scrollToAbout} className="header-links">ABOUT</a>
-                <a onClick={scrollToContact} className="header-links">CONTACT</a>
+                <p onClick={scrollToServices} className="header-links">SERVICES</p>
+                <p onClick={scrollToReviews} className="header-links" id="reviewsss">REVIEWS</p>
+                <p onClick={scrollToAbout} className="header-links">ABOUT</p>
+                <p onClick={scrollToContact} className="header-links">CONTACT</p>
             </div>
         </div>
     );

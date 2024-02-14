@@ -8,6 +8,37 @@
 .services {
     margin-bottom: 75px;
     color: #0f0f0f;
+    width: 85%;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 25%;
+    align-items: baseline;
+}
+
+.services-text {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #333;
+}
+
+.services-text {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 1s, transform 1s;
+}
+
+.slide-inn {
+    animation: slideInn 1s forwards;
+} 
+
+@keyframes slideInn {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 /* before/after pic functionality */
@@ -48,4 +79,20 @@
 .slide-in {
     transform: translateX(0); /* Move to the original position */
     opacity: 1;
+}
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 768px){
+    .b-a-pic-right, .b-a-pic-left{
+        max-width: 40%;
+        max-height: 355px;
+    }
+    .kokachin{
+        width: 2rem;
+    }    
+    .services{
+        margin-left: 0;
+    }
 }

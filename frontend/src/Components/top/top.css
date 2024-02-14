@@ -37,7 +37,7 @@
     align-items: center;
 }
 
-.intro-statement, .services-text, .top-state{
+.intro-statement, .top-state{
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -110,20 +110,6 @@
 }
 
 
-/*  */
-
-.services-sec, .services {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.services {
-    margin-bottom: 75px;
-    color: #0f0f0f;
-}
-
 /* before/after pic functionality */
 
 .before-after-pics {
@@ -137,20 +123,20 @@
     gap: 100px;
 }
 
-.picture-pair {
+.main-picture-pair {
     display: flex;
     align-items: center;
     gap: 25px;
     justify-content: center;
 }
-.b-a-pic-left, .main-pic-left {
+.main-pic-left {
     max-height: 25rem;
     width: 20rem;
     opacity: 0;
     transform: translateX(-50%); /* Start offscreen to the left */
     transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 }
-.b-a-pic-right, .main-pic-right {
+.main-pic-right {
     max-height: 25rem;
     width: 20rem;
     opacity: 0;
@@ -162,4 +148,18 @@
 .slide-in {
     transform: translateX(0); /* Move to the original position */
     opacity: 1;
+}
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 768px) {
+    .top-left{
+        margin-bottom: 20%;
+        margin-right: 0;
+    }
+    .body{
+        margin-top: 30%;
+        margin-bottom: 32%;
+    }
 }

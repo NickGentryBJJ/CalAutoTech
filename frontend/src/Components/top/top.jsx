@@ -23,7 +23,7 @@ return (
                 <span className="bottom-state">Mobile Wheel Repair</span>
             </span>
         </div>
-        <div className="picture-pair" id="main-pic-pair">
+        <div className="main-picture-pair" id="main-pic-pair">
             <img className="main-pic-left" data-aos="slide-in" src={require("../../Assets/Images/Rims/top.JPEG")} alt=""/>
             <img className="main-pic-right" data-aos="slide-in" src={require("../../Assets/Images/Rims/top2.JPEG")} alt=""/>
         </div>
