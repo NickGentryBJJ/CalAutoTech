@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/CalAutoReact/static/css/main.13010e5c.css",
-    "main.js": "/CalAutoReact/static/js/main.97a45a2f.js",
-    "static/media/5thbottom.PNG": "/CalAutoReact/static/media/5thbottom.69db6bc2ba0899b2a866.PNG",
-    "static/media/5thtop.JPEG": "/CalAutoReact/static/media/5thtop.52e39926a43f826743f8.JPEG",
-    "static/media/lastbottom.JPEG": "/CalAutoReact/static/media/lastbottom.27f45c94c6ced24b44b2.JPEG",
-    "static/media/top.JPEG": "/CalAutoReact/static/media/top.1d5e3849702c30df50ee.JPEG",
-    "static/media/4thbottom.JPEG": "/CalAutoReact/static/media/4thbottom.be371f613f8386377a98.JPEG",
-    "static/media/3rdbottom.JPEG": "/CalAutoReact/static/media/3rdbottom.88f8abb5c719c42fa6d3.JPEG",
-    "static/media/4thtop.JPEG": "/CalAutoReact/static/media/4thtop.a848fd949adff05d1938.JPEG",
-    "static/media/2ndbottom.JPEG": "/CalAutoReact/static/media/2ndbottom.c1059d8f00a5091c02c9.JPEG",
-    "static/media/lasttop.JPEG": "/CalAutoReact/static/media/lasttop.3fba974d7b085acc6f3b.JPEG",
-    "static/media/3rdtop.JPEG": "/CalAutoReact/static/media/3rdtop.cd70178c0436fd36bece.JPEG",
-    "static/media/top2.JPEG": "/CalAutoReact/static/media/top2.2164d3d9c500a221b810.JPEG",
-    "static/media/2ndtop.JPEG": "/CalAutoReact/static/media/2ndtop.7187d4e8baf680c37a9b.JPEG",
-    "static/media/Cal_Logo.png": "/CalAutoReact/static/media/Cal_Logo.102d4edeec7768f6fdbc.png",
-    "static/media/jake.jpg": "/CalAutoReact/static/media/jake.bd1c107755e788d9c8e6.jpg",
-    "static/media/github_2111425.png": "/CalAutoReact/static/media/github_2111425.d3263084234dc705b2ae.png",
-    "static/media/Email.png": "/CalAutoReact/static/media/Email.726685267fcbd04d0211.png",
-    "index.html": "/CalAutoReact/index.html",
-    "main.13010e5c.css.map": "/CalAutoReact/static/css/main.13010e5c.css.map",
-    "main.97a45a2f.js.map": "/CalAutoReact/static/js/main.97a45a2f.js.map"
+    "main.css": "/CalAutoTech/static/css/main.dd61a854.css",
+    "main.js": "/CalAutoTech/static/js/main.5cea27aa.js",
+    "static/media/5thbottom.PNG": "/CalAutoTech/static/media/5thbottom.69db6bc2ba0899b2a866.PNG",
+    "static/media/5thtop.JPEG": "/CalAutoTech/static/media/5thtop.52e39926a43f826743f8.JPEG",
+    "static/media/lastbottom.JPEG": "/CalAutoTech/static/media/lastbottom.27f45c94c6ced24b44b2.JPEG",
+    "static/media/top.JPEG": "/CalAutoTech/static/media/top.1d5e3849702c30df50ee.JPEG",
+    "static/media/4thbottom.JPEG": "/CalAutoTech/static/media/4thbottom.be371f613f8386377a98.JPEG",
+    "static/media/3rdbottom.JPEG": "/CalAutoTech/static/media/3rdbottom.88f8abb5c719c42fa6d3.JPEG",
+    "static/media/4thtop.JPEG": "/CalAutoTech/static/media/4thtop.a848fd949adff05d1938.JPEG",
+    "static/media/2ndbottom.JPEG": "/CalAutoTech/static/media/2ndbottom.c1059d8f00a5091c02c9.JPEG",
+    "static/media/lasttop.JPEG": "/CalAutoTech/static/media/lasttop.3fba974d7b085acc6f3b.JPEG",
+    "static/media/3rdtop.JPEG": "/CalAutoTech/static/media/3rdtop.cd70178c0436fd36bece.JPEG",
+    "static/media/top2.JPEG": "/CalAutoTech/static/media/top2.2164d3d9c500a221b810.JPEG",
+    "static/media/2ndtop.JPEG": "/CalAutoTech/static/media/2ndtop.7187d4e8baf680c37a9b.JPEG",
+    "static/media/Cal_Logo.png": "/CalAutoTech/static/media/Cal_Logo.102d4edeec7768f6fdbc.png",
+    "static/media/jake.jpg": "/CalAutoTech/static/media/jake.bd1c107755e788d9c8e6.jpg",
+    "static/media/github_2111425.png": "/CalAutoTech/static/media/github_2111425.d3263084234dc705b2ae.png",
+    "static/media/Email.png": "/CalAutoTech/static/media/Email.726685267fcbd04d0211.png",
+    "index.html": "/CalAutoTech/index.html",
+    "main.dd61a854.css.map": "/CalAutoTech/static/css/main.dd61a854.css.map",
+    "main.5cea27aa.js.map": "/CalAutoTech/static/js/main.5cea27aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.13010e5c.css",
-    "static/js/main.97a45a2f.js"
+    "static/css/main.dd61a854.css",
+    "static/js/main.5cea27aa.js"
   ]
 }
