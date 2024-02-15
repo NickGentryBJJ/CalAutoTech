@@ -13,15 +13,15 @@ const Services = () => {
                     observer.unobserve(entry.target);
                 }
             });
-        }, { threshold: 0.2 }); // Adjust the threshold as needed
-        const observert = new IntersectionObserver(entries => {
+        }, { threshold: 0.2 }); 
+        const observerText = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('slide-inn');
                     observer.unobserve(entry.target);
                 }
             });
-        }, { threshold: 0.002 }); // Adjust the threshold as needed
+        }, { threshold: 0.002 }); 
         
         leftImages.forEach(image => {
             observer.observe(image);
@@ -30,7 +30,7 @@ const Services = () => {
             observer.observe(image);
         });
         servicesText.forEach(image => {
-            observert.observe(image);
+            observerText.observe(image);
         });
     });
     return (
