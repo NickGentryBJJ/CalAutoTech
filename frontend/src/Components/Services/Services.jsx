@@ -4,7 +4,7 @@ const Services = () => {
     document.addEventListener('DOMContentLoaded', function () {
         const leftImages = document.querySelectorAll('.b-a-pic-left');
         const rightImages = document.querySelectorAll('.b-a-pic-right');
-        const servicesText = document.querySelectorAll('.services-text');
+        const servicesText = document.querySelectorAll('.services-text-section');
         
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
@@ -21,7 +21,7 @@ const Services = () => {
                     observer.unobserve(entry.target);
                 }
             });
-        }, { threshold: 0.002 }); 
+        }, { threshold: 0.02 }); 
         
         leftImages.forEach(image => {
             observer.observe(image);
@@ -38,21 +38,41 @@ const Services = () => {
         <div id="services-section" className="services-sec">
             <h1 className="services-title">Cal Auto Tech's Services</h1>
             <div className="services">
-                <p className="services-text">
-                    Open 7 days a week
-                </p>
-                <p className="services-text">
-                    Free quotes within minutes 
-                </p>
-                <p className="services-text">
-                    Competitive pricing & prompt service.
-                </p>
-                <p className="services-text">
-                    We serve fleet accounts, private owners, and lease returns.
-                </p>
-                <p className="services-text">
-                    Discounts for multiple wheels, as well as special rates for military and seniors.
-                </p>
+                <div className="services-text-section">
+                    <img 
+                        className="lil-rim" 
+                        src={require("../../Assets/Images/icons/android-chrome-512x512.png")}  
+                        alt="Lil Rim"/> 
+                    <p className="services-text">Open 7 days a week</p>
+                </div>
+                <div className="services-text-section">
+                    <img 
+                        className="lil-rim" 
+                        src={require("../../Assets/Images/icons/android-chrome-512x512.png")} 
+                        alt="Lil Rim"/> 
+                    <p className="services-text">Free quotes within minutes</p> 
+                </div>
+                <div className="services-text-section">
+                    <img 
+                        className="lil-rim" 
+                        src={require("../../Assets/Images/icons/android-chrome-512x512.png")} 
+                        alt="Lil Rim"/> 
+                    <p className="services-text">Competitive pricing & prompt service.</p>
+                </div>
+                <div className="services-text-section">
+                    <img 
+                        className="lil-rim" 
+                        src={require("../../Assets/Images/icons/android-chrome-512x512.png")} 
+                        alt="Lil Rim"/> 
+                    <p className="services-text">We serve fleet accounts, private owners, and lease returns.</p>
+                </div>
+                <div className="services-text-section">
+                    <img 
+                        className="lil-rim" 
+                        src={require("../../Assets/Images/icons/android-chrome-512x512.png")} 
+                        alt="Lil Rim"/> 
+                    <p className="services-text">Discounts for multiple wheels, as well as special rates for military and seniors.</p>
+                </div>
             </div>
             {/* GALLERY SECTION */}
             <div className="before-after-pics">

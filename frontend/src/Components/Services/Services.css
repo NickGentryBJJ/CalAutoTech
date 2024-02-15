@@ -7,24 +7,31 @@
 .services {
     margin-bottom: 75px;
     color: #0f0f0f;
-    width: 85%;
+    width: 90%;
     font-family: 'Dosis', sans-serif;
     margin-left: 25%;
     align-items: baseline;
 }
+.services-text-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
 .services-text {
-    margin-bottom: 30px;
     font-size: 32px;
     color: #333;
+    display: flex;
+    align-items: center;
 }
 /* SERVICES TEXT FUNCTIONALITY */
-.services-text {
+.services-text-section {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateX(80%);
     transition: opacity 1s, transform 1s;
 }
 .slide-inn {
-    animation: slideInn 1s forwards;
+    animation: slideInn 2s forwards;
 } 
 @keyframes slideInn {
     0% {
@@ -69,6 +76,9 @@
 .slide-in {
     transform: translateX(0); /* Move to the original position */
     opacity: 1;
+}
+.lil-rim{
+    width: 4rem;
 }
 /* MOBILE CSS*/
 @media only screen and (max-width: 768px){

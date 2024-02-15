@@ -2,6 +2,7 @@
 # Cal Auto Tech
 
 ### Optimized code base for a rim repair specialists webpage.  
+#### Feel free to check out the live site! [Live Site Link](https://nickgentrybjj.github.io/CalAutoTech/)
 
 ## Tech Stack!
 
@@ -16,7 +17,7 @@
 
 ## Deployment!
 
-Deployed using Github Pages!
+Deployed and stored using Github!
 <p align="center">
 <code><img width="12%" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"></code>
 <code><img width="12%" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"></code>
@@ -24,8 +25,34 @@ Deployed using Github Pages!
 
 ## Features and Code!
 <p align="center">
-This webpage has many subtle but powerful effects that give it a polished feel.  The power of Javascript and CSS shines through in these before and after pictures.  The goal was to make the user feel as if they were walking through a white tiled car garage inspecting the handy work of my client. In order to achieve that I created a function to add the "Slide-In" class to the images when the users viewport intersected with where the images are planned to be. <br/>
-<img src="./ReadMePics/Services_Code_Snippet.png"/>
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/1ecf5ae40b52489d840c7ad8574fe369?sid=ddda1f2c-850c-4068-be95-db279a6b1999" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+This webpage boasts numerous subtle yet impactful effects that contribute to its polished appearance. Leveraging the capabilities of JavaScript and CSS, the before-and-after pictures shine with elegance. The overarching goal was to immerse the user in an experience reminiscent of strolling through a pristine white-tiled car garage, inspecting the meticulous craftsmanship of our client's work. To achieve this, a custom function was crafted to dynamically add the 'slide-in' class to designated images. As the user's viewport intersects with the designated area, the images gracefully slide into view, enhancing the immersive experience. <br/>
 
+## Services Code Snippet
+<img src="./ReadMePics/Services_Code_Snippet.png"/>
+
+## Services Functionality
+<img src="./ReadMePics/pic1_before.png"/>
+<img src="./ReadMePics/Pic2_before.png"/>
 <p/>
+
+## Mobile or Desktop Compatability!
+
+<p align="center">
+    Thanks to its mobile-friendly styling and carefully adjusted layout, our application ensures an intuitive user experience and easy digestion of information, regardless of the device being used for scrolling.
+<p/>
+
+<!-- mobile images and desktop images -->
+
+## Developer
+
+### [Nick Gentry](https://www.linkedin.com/in/nicholas-gentry-2721451b2/)
+
+
+#### Find me Here!
+  <a href="https://www.linkedin.com/in/nicholas-gentry-2721451b2/"> 
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile">
+  </a>
+    <a href="https://nickgentrybjj.github.io/Portfolio/"> 
+    <img src="https://img.shields.io/badge/_✨_Portfolio_-089992?style=for-the-badge" alt="Portfolio Link" width="120" height="28">
+  </a>
+
