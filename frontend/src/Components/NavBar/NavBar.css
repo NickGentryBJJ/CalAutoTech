@@ -2,8 +2,6 @@
     position: fixed;
     top: 0px;
 }
-/* navbar */
-
 .nav-logo  {
     width: 4.2rem;
     cursor: pointer;
@@ -20,28 +18,24 @@
     letter-spacing: 2px;
     z-index:1;
 }
-
 .header-links{
     margin:0px;
-    font-family: var(--main-font);
+    font-family: 'Fjalla One', sans-serif;
     color: white;
     cursor:pointer;
     text-decoration: none;
-
+    font-weight: 600;
+    font-size: 24px;
 }
 .header-links:hover{
     color:#010000cb
 }
-
 .links{
-  display: flex;
-  justify-content: space-between;
-  width: 70vw;
-  
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
 }
-
 /* MOBILE */
-
 @media only screen and  (max-width: 768px) {
     .links{
         display: flex;

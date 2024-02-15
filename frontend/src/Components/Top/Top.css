@@ -14,7 +14,6 @@
 #main-pic-pair{
     width: 50%;
 }
-
 /* TEXT */ 
 .title, .reviews-title, .services-title, .about-title{
     font-family: 'Luckiest Guy', cursive;
@@ -26,7 +25,6 @@
 .title{
     margin-bottom: 40px;
 }
-
 .services-title{
     margin-top: 115px;
 }
@@ -36,7 +34,6 @@
     display: flex;
     align-items: center;
 }
-
 .intro-statement, .top-state{
     flex-direction: column;
     display: flex;
@@ -55,14 +52,11 @@
     color: black;
     text-align: center;
 }
-
-
 /* TOP SECTION SLIDE FUNC */
 .top-left {
     position: relative;
     overflow: hidden;
 }
-
 .title{
     opacity: 0;
     transform: translateY(-50px); /* Initial position above the screen */
@@ -78,7 +72,6 @@
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
-
 .top-state {
     animation-name: slideIn;
     animation-delay: 0.5s; /* Delay the slideIn animation slightly */
@@ -89,40 +82,32 @@
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
-
 .bottom-state {
     animation-name: slideIn;
     animation-delay: 1s; /* Delay the slideIn animation slightly */
 }
-
 @keyframes dropIn {
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
-
 @keyframes slideIn {
     to {
         opacity: 1;
         transform: translateX(0);
     }
 }
-
-
 /* before/after pic functionality */
-
 .before-after-pics {
     display: flex;
     justify-content: space-between;
 }
-
 .left-b-a {
     display: flex;
     flex-direction: column;
     gap: 100px;
 }
-
 .main-picture-pair {
     display: flex;
     align-items: center;
@@ -143,16 +128,11 @@
     transform: translateX(90%); /* Start offscreen to the right */
     transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 }
-
-
 .slide-in {
     transform: translateX(0); /* Move to the original position */
     opacity: 1;
 }
-
-
 /* MOBILE */
-
 @media only screen and (max-width: 768px) {
     .top-left{
         margin-bottom: 20%;

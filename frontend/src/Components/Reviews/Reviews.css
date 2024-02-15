@@ -1,4 +1,3 @@
-/* reviews css */
 .reviews {
     display: flex;
     overflow: hidden;
@@ -20,7 +19,6 @@
     min-height: 275px;
     overflow: hidden;
 }
-
 .reviews-section {
     margin-top: 5rem;
     height: 28rem;
@@ -28,11 +26,9 @@
 .paused {
     animation-play-state: paused;
 }
-
 .reviews:hover .yelp-review {
     animation-play-state: paused;
 }
-
 @keyframes slide {
     0% {
         transform: translateX(0%);
@@ -50,4 +46,3 @@
         transform: translateX(-200%);
     }
 }
-/* end reviews css */

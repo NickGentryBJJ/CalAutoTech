@@ -1,9 +1,9 @@
 import About from "./Components/About/About";
-import Footer from "./Components/footer/footer";
+import Footer from "./Components/Footer/Footer";
 import NavBar from "./Components/NavBar/NavBar";
 import Reviews from "./Components/Reviews/Reviews";
 import Services from "./Components/Services/Services";
-import Top from "./Components/top/top";
+import Top from "./Components/Top/Top";
 
 function App() {
   return (

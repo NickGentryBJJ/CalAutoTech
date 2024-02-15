@@ -2,26 +2,12 @@ import React, { useEffect } from 'react';
 import './Reviews.css';
 
 const Reviews = () => {
-    // useEffect(() => {
-    //     // Load Yelp review widgets dynamically
-    //     const script = document.createElement('script');
-    //     script.src = 'https://www.yelp.com/embed/widgets.js';
-    //     script.async = true;
-    //     document.body.appendChild(script);
-
-    //     return () => {
-    //         // Clean up after component unmounts
-    //         document.body.removeChild(script);
-    //     };
-    // }, []);
     useEffect(() => {
-        // Load Yelp review widgets dynamically
         const script = document.createElement('script');
         script.src = 'https://www.yelp.com/embed/widgets.js';
         script.async = true;
         document.body.appendChild(script);
     }, []);
-
     return (
         <div id="reviews-section" className="reviews-section">
             <h1 className="reviews-title">Cal Auto Tech's Satisfied Customers!</h1>
@@ -35,5 +21,4 @@ const Reviews = () => {
         </div>
     );
 }
-
 export default Reviews;

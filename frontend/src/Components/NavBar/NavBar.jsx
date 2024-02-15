@@ -1,29 +1,25 @@
 import './NavBar.css'
 
-
 const NavBar = () => {
-    function keniBurk() {    
+    // Risin' to the top!
+    function keniBurke() {    
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
     }
-    
     function scrollToReviews() {
         var reviewsSection = document.getElementById('reviews-section');
         reviewsSection.scrollIntoView({ behavior: 'smooth' });
     }
-    
     function scrollToServices() {
         var reviewsSection = document.getElementById('services-section');
         reviewsSection.scrollIntoView({ behavior: 'smooth' });
     }
-    
     function scrollToAbout() {
         var reviewsSection = document.getElementById('about-section');
         reviewsSection.scrollIntoView({ behavior: 'smooth' });
     }
-    
     function scrollToContact() {
         var reviewsSection = document.getElementById('contact-section');
         reviewsSection.scrollIntoView({ behavior: 'smooth' });
@@ -31,7 +27,11 @@ const NavBar = () => {
     return (
         <div id="stickyHeader" className="header-links-wrapper">
             <div>
-                <img onClick={keniBurk} className="nav-logo" src={require("../../Assets/Images/Cal_Logo.png")} alt=""/>
+                <img 
+                    onClick={keniBurke} 
+                    className="nav-logo" 
+                    src={require("../../Assets/Images/Cal_Logo.png")} 
+                    alt="Cal Auto Tech"/>
             </div>
             <div className="links">
                 <p onClick={scrollToServices} className="header-links">SERVICES</p>
@@ -42,5 +42,4 @@ const NavBar = () => {
         </div>
     );
 }
-
 export default NavBar;

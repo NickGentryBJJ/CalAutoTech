@@ -1,11 +1,9 @@
-/* about section css */
 .about-sec {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 .about-blurb {
     max-width: 70%;
     margin: 0 auto;
@@ -17,11 +15,9 @@
     color: #0f0f0f;
     
 }
-
 .about-blurb p {
     margin-bottom: 50px;
 }
-
 .last-words-about{
     font-weight: 500;
     font-family: 'Permanent Marker', cursive;
