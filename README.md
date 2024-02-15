@@ -3,6 +3,10 @@
 
 Optimized code base for Rim Repair specialists webpage.
 
-### Deployment
+## Tech Stack!
+
+Javascript, React, Html, CSS
+
+## Deployment!
 
 Deployed using Github!
