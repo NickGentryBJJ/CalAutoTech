@@ -10,6 +10,10 @@
 .top-left {
     width: 100%;
     margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #main-pic-pair{
     width: 50%;
@@ -24,9 +28,6 @@
 }
 .title{
     margin-bottom: 40px;
-}
-.services-title{
-    margin-top: 115px;
 }
 .about-title{
     padding-top: 115px;
@@ -51,6 +52,11 @@
     margin-bottom: 50px;
     color: black;
     text-align: center;
+}
+.top-logo{
+    width: 17rem;
+    border-radius: 25px;
+    margin-bottom: 40px;
 }
 /* TOP SECTION SLIDE FUNC */
 .top-left {

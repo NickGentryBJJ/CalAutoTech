@@ -16,9 +16,10 @@ const Top = () => {
 return (
     <div className="body" >
         <div className="top-left">
-            <h1 className="title">
+            {/* <h1 className="title">
                 Cal Auto Tech
-            </h1>
+            </h1> */}
+            <img className="top-logo" src={require("../../Assets/Images/Cal_Logo.png")} alt="Cal Auto Tech" />
             <span className="intro-statement">
                 <span className="top-state">
                     Specializing in

@@ -23,3 +23,11 @@
     font-family: 'Permanent Marker', cursive;
     color: #333;
 }
+.about-span-call{
+    cursor: pointer;
+    font-weight: 600;
+    border-bottom: #0f0f0f;
+}
+.free-about{
+    font-weight: 600;
+}
