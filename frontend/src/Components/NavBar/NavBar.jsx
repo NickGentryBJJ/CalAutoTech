@@ -1,28 +1,48 @@
 import './NavBar.css'
 
 const NavBar = () => {
+    function scrollTo(element, duration) {
+        const targetPosition = element.offsetTop;
+        const startPosition = window.scrollY;
+        const distance = targetPosition - startPosition;
+        const startTime = performance.now();
+    
+        function scrollAnimation(currentTime) {
+            const elapsedTime = currentTime - startTime;
+            const progress = Math.min(elapsedTime / duration, 1);
+            const ease = easeOut(progress);
+            window.scrollTo(0, startPosition + distance * ease);
+
+            if (elapsedTime < duration) {
+                requestAnimationFrame(scrollAnimation);
+            }
+        }
+        requestAnimationFrame(scrollAnimation);
+    }
+    function easeOut(t) {
+        return 1 - (--t) * t * t * t;
+    }
     // Risin' to the top!
     function keniBurke() {    
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
+        const body = document.body;
+        const duration = 5000; 
+        scrollTo(body, duration);
     }
     function scrollToReviews() {
         var reviewsSection = document.getElementById('reviews-section');
-        reviewsSection.scrollIntoView({ behavior: 'smooth' });
+        scrollTo(reviewsSection, 3000); 
     }
     function scrollToServices() {
-        var reviewsSection = document.getElementById('services-section');
-        reviewsSection.scrollIntoView({ behavior: 'smooth' });
+        var servicesSection = document.getElementById('services-section');
+        scrollTo(servicesSection, 3000); 
     }
     function scrollToAbout() {
-        var reviewsSection = document.getElementById('about-section');
-        reviewsSection.scrollIntoView({ behavior: 'smooth' });
+        var aboutSection = document.getElementById('about-section');
+        scrollTo(aboutSection, 3000); 
     }
     function scrollToContact() {
-        var reviewsSection = document.getElementById('contact-section');
-        reviewsSection.scrollIntoView({ behavior: 'smooth' });
+        var contactSection = document.getElementById('contact-section');
+        scrollTo(contactSection, 3000); 
     }
     return (
         <div id="stickyHeader" className="header-links-wrapper">
