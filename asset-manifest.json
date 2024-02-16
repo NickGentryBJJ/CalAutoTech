@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CalAutoTech/static/css/main.5cf837fe.css",
-    "main.js": "/CalAutoTech/static/js/main.c38ed0e4.js",
+    "main.css": "/CalAutoTech/static/css/main.701f7a6b.css",
+    "main.js": "/CalAutoTech/static/js/main.ca8df778.js",
     "static/media/5thbottom.PNG": "/CalAutoTech/static/media/5thbottom.69db6bc2ba0899b2a866.PNG",
     "static/media/5thtop.JPEG": "/CalAutoTech/static/media/5thtop.52e39926a43f826743f8.JPEG",
     "static/media/lastbottom.JPEG": "/CalAutoTech/static/media/lastbottom.27f45c94c6ced24b44b2.JPEG",
@@ -20,11 +20,11 @@
     "static/media/github_2111425.png": "/CalAutoTech/static/media/github_2111425.d3263084234dc705b2ae.png",
     "static/media/Email.png": "/CalAutoTech/static/media/Email.726685267fcbd04d0211.png",
     "index.html": "/CalAutoTech/index.html",
-    "main.5cf837fe.css.map": "/CalAutoTech/static/css/main.5cf837fe.css.map",
-    "main.c38ed0e4.js.map": "/CalAutoTech/static/js/main.c38ed0e4.js.map"
+    "main.701f7a6b.css.map": "/CalAutoTech/static/css/main.701f7a6b.css.map",
+    "main.ca8df778.js.map": "/CalAutoTech/static/js/main.ca8df778.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cf837fe.css",
-    "static/js/main.c38ed0e4.js"
+    "static/css/main.701f7a6b.css",
+    "static/js/main.ca8df778.js"
   ]
 }
