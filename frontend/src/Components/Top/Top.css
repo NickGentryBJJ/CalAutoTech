@@ -19,7 +19,7 @@
     width: 50%;
 }
 /* TEXT */ 
-.title, .reviews-title, .services-title, .about-title{
+.title, .reviews-title, .about-title{
     font-family: 'Luckiest Guy', cursive;
     font-size: 65px;
     margin-bottom: 50px;

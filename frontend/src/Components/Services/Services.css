@@ -14,6 +14,11 @@
 }
 .services-title{
     margin-top: 100px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 65px;
+    margin-bottom: 50px;
+    color: black;
+    text-align: center;
 }
 .services-text-section {
     width: 100%;
@@ -94,5 +99,18 @@
     }    
     .services{
         margin-left: 0;
+        gap: 50px;
+        margin-bottom: 20%;
+    }
+    .services-title{
+        margin-top: 220px;
+        font-size: 90px;
+    }
+    .services-text{
+        font-size: 60px;
+    }
+    .lil-rim{
+        width: 5rem;
+        height: 5rem;
     }
 }

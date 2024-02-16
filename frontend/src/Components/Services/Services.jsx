@@ -71,7 +71,9 @@ const Services = () => {
                         className="lil-rim" 
                         src={require("../../Assets/Images/icons/android-chrome-512x512.png")} 
                         alt="Lil Rim"/> 
-                    <p className="services-text">Discounts for multiple wheels, as well as special rates for military and seniors.</p>
+                    <p className="services-text">
+                        Discounts for multiple wheels, as well as special rates for military and seniors.
+                    </p>
                 </div>
             </div>
             {/* GALLERY SECTION */}
