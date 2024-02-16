@@ -119,7 +119,10 @@ const Footer = () => {
                             </button>
                         </a>
                         {isHovering && (
-                            <div className="phone-number">
+                            <div 
+                                onMouseEnter={handleMouseEnter}
+                                onMouseLeave={handleMouseLeave} 
+                                className="phone-number">
                                 <span className="nums">
                                     650-222-3931
                                 </span>
