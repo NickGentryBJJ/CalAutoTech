@@ -140,11 +140,23 @@
 /* MOBILE */
 @media only screen and (max-width: 768px) {
     .top-left{
-        margin-bottom: 20%;
+        margin-bottom: 10%;
         margin-right: 0;
     }
     .body{
         margin-top: 30%;
-        margin-bottom: 32%;
+        margin-bottom: 10%;
     }
+    .top-logo{
+        width: 35rem;
+    }
+    .top-state{
+        font-size: 60px;
+    }
+    .bottom-state{
+        font-size: 65px;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    
 }
