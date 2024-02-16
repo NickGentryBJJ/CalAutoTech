@@ -71,9 +71,6 @@ const Footer = () => {
                                 </span>
                             </div>
                             <div className="connect-with-me-wrapper">
-                                <h1 className='c-w-m-header'>
-                                    Connect With Me!
-                                </h1>
                                 <div className="git-linked-cont">
                                     <a 
                                         target="_blank" 
@@ -189,9 +186,6 @@ const Footer = () => {
                         </span>
                     </div>
                     <div className="connect-with-me-wrapper">
-                        <h1 className='c-w-m-header'>
-                            Connect With Me!
-                        </h1>
                         <div className="git-linked-cont">
                             <a 
                                 rel="noreferrer" 
