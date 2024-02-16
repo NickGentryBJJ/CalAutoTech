@@ -17,9 +17,6 @@ const Footer = () => {
                             Thank you for visiting!
                         </span>
                     </span>
-                    <span className="exit-statement-mobile">
-                        Contact Us Now For A Consultation!
-                    </span>
                         {/* BOTTOM FOOTER TRADEMARKS MOBILE */}
                     <div className="bottom-footer-wrapper-mobile" >
                         <div className="year-container">
@@ -56,7 +53,7 @@ const Footer = () => {
                                 <h1 className='c-w-m-header'>
                                     Connect With Me!
                                 </h1>
-                                <div>
+                                <div className="git-linked-cont">
                                     <a 
                                         target="_blank" 
                                         rel="noreferrer" 
@@ -148,7 +145,7 @@ const Footer = () => {
                         <h1 className='c-w-m-header'>
                             Connect With Me!
                         </h1>
-                        <div>
+                        <div className="git-linked-cont">
                             <a 
                                 rel="noreferrer" 
                                 target="_blank" 

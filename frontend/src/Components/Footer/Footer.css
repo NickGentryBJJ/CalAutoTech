@@ -138,10 +138,16 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
-
 }
 .git:hover, .linked-in:hover {
     background-color: #cccccc;
+}
+.git-link, .linked-in-link {
+    display: block;
+}
+.git-linked-cont{
+    display: flex;
+    gap: 40px;
 }
 .c-w-m-header {
     text-align: center;
@@ -150,26 +156,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 /* MOBILE CSS */
 @media only screen and (max-width: 768px) {
     .footer-wrapper{
-        height: 32rem;
+        height:  80.795571rem;
     }
     .bottom-footer-wrapper-mobile{
-        display: block;
-        margin-top: 10%;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25%;
     }
     .bottom-footer-container{
         margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
     .foot-title{
-        font-size: 32px;
+        font-size: 75px;
         text-align: center;
+        margin-top: 20%;
         margin-bottom: 10%;
-    }
-    .exit-statement-mobile{
-        display: block;
     }
     .want-email, .want-phone{
         text-align: center;
@@ -185,22 +198,36 @@
         flex-direction: column-reverse;
         gap: 25px;
     }
-    .exit-statement-mobile {
-        line-height: 1;
-        font-size: 24px;
-    }
     .my-row{
         font-size: 12px;
     }
     .year-container {
         text-align: center;
         margin-right: 0;
-        margin-bottom: 30%;
+        margin-bottom: 20%;
     }
     .bottom-footer-wrapper{
         display: none;
     }
     .foot-left{
-        justify-content: space-between;
+        width: 60%;
+    }
+    .cal-year{
+        font-size: 43px;
+    }
+    .host{
+        font-size: 30px;
+    }
+    .c-w-m-header{
+        font-size: 36px;
+    }
+    .connect-with-me-wrapper{
+        gap: 20px;
+    }
+    .git, .linked-in{
+        width: 7rem;
+    }
+    .exit-statement{
+        font-size: 50px;
     }
 }
