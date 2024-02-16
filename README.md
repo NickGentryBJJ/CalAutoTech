@@ -7,6 +7,9 @@
 ## Tech Stack!
 
 <p align="center">
+    What began as a vanilla JavaScript project quickly escalated in complexity, leading me to realize that I had underestimated the volume of information and code required to meet the project's goals. Recognizing the need for a more manageable codebase, I opted to refactor the existing project using React.
+
+This transition to React facilitated smoother implementation of client-suggested changes and enhancements. The result is an organized and cohesive codebase, prioritizing structure, readability, and functionality.<br/>
 <code><img width="12%" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"></code>
 <code><img width="12%" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"></code>
 <code><img width="12%" src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"></code>
