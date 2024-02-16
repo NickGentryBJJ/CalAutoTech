@@ -83,7 +83,7 @@ const Footer = () => {
                 <div className="contact-foot">
                     <div className="email-foot">
                         <h1 className="want-email">
-                            Want to Email Us?
+                            Email Now!
                         </h1>
                         <a target="_blank" rel="noopener noreferrer" href="mailto:calautotech.com">
                             <button className="email-button">
@@ -96,7 +96,7 @@ const Footer = () => {
                     </div>
                     <div className="phone-foot">
                         <h1 className="want-phone">
-                            Want to Call Us?
+                            Call Now!
                         </h1>
                         <a href="tel:+16502223931">
                             <button className="phone-button">
@@ -104,6 +104,19 @@ const Footer = () => {
                                     className="kokachin" 
                                     src={require("../../Assets/Images/icons/telephone_126523.png")} 
                                     alt="Call"/>
+                            </button>
+                        </a>
+                    </div>
+                    <div className="phone-foot mobile-phone">
+                        <h1 className="want-message">
+                            Message Now!
+                        </h1>
+                        <a href="sms:+16502223931">
+                            <button className="phone-button">
+                                <img 
+                                    className="kokachin" 
+                                    src={require("../../Assets/Images/icons/message.png")} 
+                                    alt="Message"/>
                             </button>
                         </a>
                     </div>

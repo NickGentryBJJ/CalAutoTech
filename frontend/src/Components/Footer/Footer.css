@@ -46,7 +46,6 @@
 .phone-foot{
     display: flex;
     flex-direction: column;
-    justify-content: top;
     align-items: center;
     margin-right: 10%;
     margin-top: 5%;
@@ -54,23 +53,21 @@
 .email-foot{
     display: flex;
     flex-direction: column;
-    justify-content: top;
     align-items: center;
     margin-top: 5%;
 }
-.want-email, .want-phone{
+.want-email, .want-phone, .want-message{
     font-size: 35px;
     margin-bottom: 50px;
     font-family: 'Fjalla One', sans-serif;
 }
 .email-button, .phone-button {
     display: inline-block;
-    padding: 15px 30px; /* Increased padding for a larger button */
+    padding: 15px 30px; 
     background-color: #666666;
     color: white;
     text-decoration: none;
     font-family: Arial, sans-serif;
-    font-size: 28px; /* Adjusted font size */
     border-radius: 8px;
     border: none;
     cursor: pointer;
@@ -158,10 +155,18 @@
     align-items: center;
     gap: 10px;
 }
+.mobile-phone{
+    display: none;
+}
 /* MOBILE CSS */
 @media only screen and (max-width: 768px) {
+    .mobile-phone{
+        display: flex;
+    }
     .footer-wrapper{
-        height:  80.795571rem;
+        height:  81rem;
+        padding-top: 15%;
+        padding-bottom: 10%;
     }
     .bottom-footer-wrapper-mobile{
         display: flex;
@@ -184,9 +189,10 @@
         margin-top: 20%;
         margin-bottom: 10%;
     }
-    .want-email, .want-phone{
+    .want-email, .want-phone, .want-message {
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 52px;
     }
     .contact-foot, .email-foot, .phone-foot {
         align-items: center;
@@ -194,9 +200,8 @@
         margin-top: 20px;
     }
     .contact-foot{
-        justify-content: start;
+        justify-content: space-evenly;
         flex-direction: column-reverse;
-        gap: 25px;
     }
     .my-row{
         font-size: 12px;
@@ -229,5 +234,8 @@
     }
     .exit-statement{
         font-size: 50px;
+    }
+    .kokachin{
+        width: 10rem;
     }
 }
