@@ -76,6 +76,19 @@
 .email-button:hover, .phone-button:hover {
     background-color: #cccccc;
 }
+.phone-button:hover{
+    opacity: 20%;
+}
+.phone-number{
+    position: absolute;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+.nums{
+    color: peachpuff;
+}
 .kokachin {
     width: 6rem;
 }
@@ -237,5 +250,8 @@
     }
     .kokachin{
         width: 10rem;
+    }
+    .phone-number{
+        margin-top: 20%;
     }
 }

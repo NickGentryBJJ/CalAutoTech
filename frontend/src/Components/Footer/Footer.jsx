@@ -1,6 +1,15 @@
+import { useState } from 'react';
 import './Footer.css';
 
 const Footer = () => {
+    const [isHovering, setIsHovering] = useState(false);
+
+    const handleMouseEnter = () => {
+        setIsHovering(true);
+    };
+    const handleMouseLeave = () => {
+        setIsHovering(false);
+    };
     return (
     <footer>
         {/* <!-- CONTACT SECTION --> */}
@@ -98,7 +107,10 @@ const Footer = () => {
                         <h1 className="want-phone">
                             Call Now!
                         </h1>
-                        <a href="tel:+16502223931">
+                        <a 
+                            onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave} 
+                            href="tel:+16502223931">
                             <button className="phone-button">
                                 <img 
                                     className="kokachin" 
@@ -106,6 +118,13 @@ const Footer = () => {
                                     alt="Call"/>
                             </button>
                         </a>
+                        {isHovering && (
+                            <div className="phone-number">
+                                <span className="nums">
+                                    650-222-3931
+                                </span>
+                            </div>
+                        )}
                     </div>
                     <div className="phone-foot mobile-phone">
                         <h1 className="want-message">
