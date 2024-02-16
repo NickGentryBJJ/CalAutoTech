@@ -1,9 +1,21 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './Footer.css';
 
 const Footer = () => {
     const [isHovering, setIsHovering] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
 
+    useEffect(() => {
+        const checkIsMobile = () => {
+            const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            setIsMobile(width < 768); 
+        };
+        checkIsMobile();
+        window.addEventListener('resize', checkIsMobile);
+        return () => {
+            window.removeEventListener('resize', checkIsMobile);
+        };
+    }, []);
     const handleMouseEnter = () => {
         setIsHovering(true);
     };
@@ -118,7 +130,7 @@ const Footer = () => {
                                     alt="Call"/>
                             </button>
                         </a>
-                        {isHovering && (
+                        {!isMobile && isHovering && (
                             <div 
                                 onMouseEnter={handleMouseEnter}
                                 onMouseLeave={handleMouseLeave} 
