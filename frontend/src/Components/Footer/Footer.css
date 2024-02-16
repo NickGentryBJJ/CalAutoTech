@@ -107,19 +107,13 @@
     display: flex;
     justify-content: space-evenly;
 }
-.htmltaa{
-    padding-right: 5%;
-}
-.jvscrpt{
-    margin-left: -9%;
-}
 .languages{
-    width: 80%;
-    margin-left: 10%;
+    width: 65%;
+    margin-left: 14.5%;
 }
 .meh{
     width: 70%;
-    margin-left: 12%;
+    margin-left: 13%;
 }
 .year-container {
     margin-top: 15px;
