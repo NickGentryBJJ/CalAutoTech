@@ -4,8 +4,19 @@
     justify-content: center;
     align-items: center;
 }
+.about-title{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 65px;
+    margin-bottom: 50px;
+    color: black;
+    text-align: center;
+    padding-top: 115px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 .about-blurb {
-    max-width: 70%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
     line-height: 2.0;
@@ -30,4 +41,15 @@
 }
 .free-about{
     font-weight: 600;
+}
+/* MOBILE CSS */
+@media only screen and (max-width: 768px) {
+    .about-title{
+        font-size: 90px;
+        padding-top: 225px;
+    }
+    .about-blurb{
+        width: 80%;
+        font-size: 36px;
+    }
 }

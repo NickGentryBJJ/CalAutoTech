@@ -19,7 +19,7 @@
     width: 50%;
 }
 /* TEXT */ 
-.title, .reviews-title, .about-title{
+.title, .reviews-title{
     font-family: 'Luckiest Guy', cursive;
     font-size: 65px;
     margin-bottom: 50px;
@@ -28,12 +28,6 @@
 }
 .title{
     margin-bottom: 40px;
-}
-.about-title{
-    padding-top: 115px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
 }
 .intro-statement, .top-state{
     flex-direction: column;
