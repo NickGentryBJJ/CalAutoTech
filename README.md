@@ -52,6 +52,10 @@ This webpage boasts numerous subtle yet impactful effects that contribute to its
 <p align="center">
     Thanks to its mobile-friendly styling and carefully adjusted layout, our application ensures an intuitive user experience and easy digestion of information, regardless of the device being used for scrolling.
 <p/>
+<p align="center">
+<img src="./ReadMePics/Desktop_contact.png"/>
+<img src="./ReadMePics/Mobile_Contact.png"/>
+<p/>
 
 <!-- mobile images and desktop images -->
 
