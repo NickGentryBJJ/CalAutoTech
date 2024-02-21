@@ -11,7 +11,8 @@
     "react-dom": "^18.2.0",
     "react-embed": "^3.7.0",
     "react-scripts": "5.0.1",
-    "postcss": ">=8.4.31"
+    "postcss": ">=8.4.31",
+    "nth-check": ">=2.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -38,6 +39,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
-    "postcss": ">=8.4.31"
+    "postcss": ">=8.4.31",
+    "nth-check": ">=2.0.1"
   }
 }
