@@ -24,7 +24,7 @@ return (
                 <span className="top-state">
                     Specializing in
                 </span><br/>
-                <span className="bottom-state">
+                <span id="mobile-wheel-repair" className="bottom-state">
                     Mobile Wheel Repair
                 </span>
             </span>
