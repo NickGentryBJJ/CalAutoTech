@@ -103,7 +103,7 @@ const Footer = () => {
                         <h1 className="want-email">
                             Email Now!
                         </h1>
-                        <a target="_blank" rel="noopener noreferrer" href="mailto:calautotech.com">
+                        <a target="_blank" rel="noopener noreferrer" href="mailto:calautotech@gmail.com">
                             <button className="email-button">
                                 <img 
                                     className="kokachin" 
