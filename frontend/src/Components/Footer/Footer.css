@@ -7,6 +7,7 @@
     justify-content: space-between;
     padding-bottom: 1rem;
     margin-bottom: 6%;
+    height: 18rem;
 }
 .foot-left{
     display: flex;
@@ -39,9 +40,15 @@
     line-height: 2.5;
 }
 .contact-foot{
+       display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+.contact-foot-container{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
 }
 .phone-foot{
     display: flex;
@@ -80,11 +87,16 @@
     opacity: 20%;
 }
 .phone-number{
-    position: absolute;
     margin-top: 10%;
     padding: 20px;
     background-color: black;
     border-radius: 20px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 45px;
 }
 .nums{
     color: peachpuff;
@@ -166,18 +178,26 @@
     gap: 10px;
     margin-top: 3%;
 }
-.mobile-phone{
+.mobile-phone, .mobile{
     display: none;
 }
+
 /* MOBILE CSS */
 @media only screen and (max-width: 768px) {
-    .mobile-phone{
+    .desktop {
+        display: none;
+    }
+    .mobile, .mobile-phone{
         display: flex;
     }
     .footer-wrapper{
-        height:  81rem;
-        padding-top: 15%;
+        padding-top: 5%;
         padding-bottom: 10%;
+        height: auto;
+    }
+    .footer-container{
+        flex-direction: row;
+        height: 87rem;
     }
     .bottom-footer-wrapper-mobile{
         display: flex;
@@ -213,6 +233,7 @@
     .contact-foot{
         justify-content: space-evenly;
         flex-direction: column-reverse;
+        margin-right: 30px;
     }
     .my-row{
         font-size: 12px;
@@ -226,7 +247,7 @@
         display: none;
     }
     .foot-left{
-        width: 60%;
+        width: 80%;
     }
     .cal-year{
         font-size: 43px;

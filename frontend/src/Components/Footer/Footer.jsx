@@ -17,10 +17,7 @@ const Footer = () => {
         };
     }, []);
     const handleMouseEnter = () => {
-        setIsHovering(true);
-    };
-    const handleMouseLeave = () => {
-        setIsHovering(false);
+        setIsHovering(!isHovering);
     };
     return (
     <footer>
@@ -98,46 +95,45 @@ const Footer = () => {
                     </div>        
                 </div>
                 {/* CONTACT BUTTONS */}
-                <div className="contact-foot">
-                    <div className="email-foot">
-                        <h1 className="want-email">
-                            Email Now!
-                        </h1>
-                        <a target="_blank" rel="noopener noreferrer" href="mailto:calautotech@gmail.com">
-                            <button className="email-button">
-                                <img 
-                                    className="kokachin" 
-                                    src={require("../../Assets/Images/icons/Email.png")} 
-                                    alt="Email"/>
-                            </button>
-                        </a>
+                <div className="contact-foot desktop">
+                    <div className="contact-foot-container">
+                        <div className="email-foot">
+                            <h1 className="want-email">
+                                Email Now!
+                            </h1>
+                            <a target="_blank" rel="noopener noreferrer" href="mailto:calautotech@gmail.com">
+                                <button className="email-button">
+                                    <img 
+                                        className="kokachin" 
+                                        src={require("../../Assets/Images/icons/Email.png")} 
+                                        alt="Email"/>
+                                </button>
+                            </a>
+                        </div>
+                        <div className="phone-foot">
+                            <h1 className="want-phone">
+                                Call Now!
+                            </h1>
+                            <a 
+                                onClick={handleMouseEnter}
+                                href="tel:+16502223931">
+                                <button className="phone-button">
+                                    <img 
+                                        className="kokachin" 
+                                        src={require("../../Assets/Images/icons/telephone_126523.png")} 
+                                        alt="Call"/>
+                                </button>
+                            </a>
+                        </div>
                     </div>
-                    <div className="phone-foot">
-                        <h1 className="want-phone">
-                            Call Now!
-                        </h1>
-                        <a 
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave} 
-                            href="tel:+16502223931">
-                            <button className="phone-button">
-                                <img 
-                                    className="kokachin" 
-                                    src={require("../../Assets/Images/icons/telephone_126523.png")} 
-                                    alt="Call"/>
-                            </button>
-                        </a>
-                        {!isMobile && isHovering && (
-                            <div 
-                                onMouseEnter={handleMouseEnter}
-                                onMouseLeave={handleMouseLeave} 
-                                className="phone-number">
-                                <span className="nums">
-                                    650-222-3931
-                                </span>
-                            </div>
-                        )}
-                    </div>
+                            {!isMobile && isHovering && (
+                                <div 
+                                    className="phone-number">
+                                    <span className="nums">
+                                        650-222-3931
+                                    </span>
+                                </div>
+                            )}
                     <div className="phone-foot mobile-phone">
                         <h1 className="want-message">
                             Message Now!
@@ -153,6 +149,49 @@ const Footer = () => {
                     </div>
                 </div> 
             </div>
+                <div className="contact-foot mobile">
+                        <div className="email-foot">
+                            <h1 className="want-email">
+                                Email Now!
+                            </h1>
+                            <a target="_blank" rel="noopener noreferrer" href="mailto:calautotech@gmail.com">
+                                <button className="email-button">
+                                    <img 
+                                        className="kokachin" 
+                                        src={require("../../Assets/Images/icons/Email.png")} 
+                                        alt="Email"/>
+                                </button>
+                            </a>
+                        </div>
+                        <div className="phone-foot">
+                            <h1 className="want-phone">
+                                Call Now!
+                            </h1>
+                            <a 
+                                onClick={handleMouseEnter}
+                                href="tel:+16502223931">
+                                <button className="phone-button">
+                                    <img 
+                                        className="kokachin" 
+                                        src={require("../../Assets/Images/icons/telephone_126523.png")} 
+                                        alt="Call"/>
+                                </button>
+                            </a>
+                        </div>
+                    <div className="phone-foot mobile-phone">
+                        <h1 className="want-message">
+                            Message Now!
+                        </h1>
+                        <a href="sms:+16502223931">
+                            <button className="phone-button">
+                                <img 
+                                    className="kokachin" 
+                                    src={require("../../Assets/Images/icons/message.png")} 
+                                    alt="Message"/>
+                            </button>
+                        </a>
+                    </div>
+                </div>
             {/* <!-- BOTTOM FOOTER TRADEMARKS (DESKTOP)--> */}
             <div className="bottom-footer-wrapper">
                 <div className="year-container">
@@ -211,7 +250,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </footer>     
 )};
 export default Footer;
