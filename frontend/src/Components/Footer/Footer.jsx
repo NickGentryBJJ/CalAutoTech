@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Footer.css';
+import PhoneAnimation from '../PhoneAnimation/PhoneAnimation';
 
 const Footer = () => {
     const [isHovering, setIsHovering] = useState(false);
@@ -127,12 +128,7 @@ const Footer = () => {
                         </div>
                     </div>
                             {!isMobile && isHovering && (
-                                <div 
-                                    className="phone-number">
-                                    <span className="nums">
-                                        650-222-3931
-                                    </span>
-                                </div>
+                                <PhoneAnimation/>
                             )}
                     <div className="phone-foot mobile-phone">
                         <h1 className="want-message">

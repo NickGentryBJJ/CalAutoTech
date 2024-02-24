@@ -1,0 +1,31 @@
+@keyframes slideInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.phone-number{
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 45px;
+    flex-direction: column;
+}
+.nums{
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-family: 'Permanent Marker', cursive;
+}
+.phone-number .nums {
+    opacity: 0; 
+}
