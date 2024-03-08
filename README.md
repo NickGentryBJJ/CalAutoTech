@@ -1,7 +1,8 @@
 
-# Welcome To Cal Auto Tech!
+# Welcome To Cal Auto Tech!  👋
 
 ### Optimized code base for a rim repair specialists webpage.  
+
 #### Feel free to check out the live site! [Live Site Link](https://nickgentrybjj.github.io/CalAutoTech/)
 
 ## Tech Stack!
