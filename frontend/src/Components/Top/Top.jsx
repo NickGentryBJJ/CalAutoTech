@@ -16,9 +16,6 @@ const Top = () => {
 return (
     <div className="body" >
         <div className="top-left">
-            {/* <h1 className="title">
-                Cal Auto Tech
-            </h1> */}
             <img className="top-logo title" src={require("../../Assets/Images/Cal_Logo.png")} alt="Cal Auto Tech" />
             <span className="intro-statement">
                 <span className="top-state">
@@ -41,8 +38,14 @@ return (
                 src={require("../../Assets/Images/Rims/top2.JPEG")} 
                 alt="After"/>
         </div>
-        {/* <!-- will replace these before and after pics when correct video is available. -->
-        <!-- <iframe width="100%" height="315" src="UNCLE T VID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> --> */}
+        <a className="top-phone-link" href="tel:+16502223931">
+            <div className="top-mobile-phone">
+                <h1 className="call-now-top">
+                    Call Now!
+                </h1>
+                    650-222-3931
+            </div>
+        </a>
     </div>
 )}
 export default Top;
