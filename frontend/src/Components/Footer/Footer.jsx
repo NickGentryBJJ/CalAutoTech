@@ -3,7 +3,7 @@ import './Footer.css';
 import PhoneAnimation from '../PhoneAnimation/PhoneAnimation';
 
 const Footer = () => {
-    const [isHovering, setIsHovering] = useState(false);
+    const [isClicked, setIsClicked] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
@@ -18,7 +18,7 @@ const Footer = () => {
         };
     }, []);
     const handleMouseEnter = () => {
-        setIsHovering(!isHovering);
+        setIsClicked(!isClicked);
     };
     return (
     <footer>
@@ -127,7 +127,7 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
-                            {!isMobile && isHovering && (
+                            {!isMobile && isClicked && (
                                 <PhoneAnimation/>
                             )}
                     <div className="phone-foot mobile-phone">

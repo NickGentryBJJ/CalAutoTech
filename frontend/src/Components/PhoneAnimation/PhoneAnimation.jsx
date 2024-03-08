@@ -14,7 +14,9 @@ const PhoneAnimation = () => {
     return (
         <div className="phone-number">
             <span className="nums">Call Now!</span>
-            <span className="nums">650-222-3931</span>
+            <a className="no-text-dec" href="tel:+1650-222-3931">
+                <span className="nums" id="tony">650-222-3931</span>
+            </a>
         </div>
     );
 };

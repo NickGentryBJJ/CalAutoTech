@@ -26,6 +26,12 @@
     font-weight: 400;
     font-family: 'Permanent Marker', cursive;
 }
+#tony:hover{
+    color: antiquewhite;
+}
 .phone-number .nums {
     opacity: 0; 
+}
+.no-text-dec{
+    text-decoration: none;
 }
