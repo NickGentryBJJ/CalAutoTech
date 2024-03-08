@@ -1,9 +1,9 @@
 
-# Welcome To Cal Auto Tech!  👋
+# Welcome To Cal Auto Tech!
 
-### Optimized code base for a rim repair specialists webpage.  
+### Optimized code base for a rim repair specialists webpage. <br/> <img width="25%" src="./ReadMePics/android-chrome-512x512.png"> <br/>Feel free to check out the live site! [CalAutoTech.net](https://calautotech.net)
 
-#### Feel free to check out the live site! [calautotech.net](https://calautotech.net)
+#
 
 ## Tech Stack!
 
