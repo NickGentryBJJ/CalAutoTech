@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0a943cc7.css",
-    "main.js": "/static/js/main.4731aa2c.js",
+    "main.js": "/static/js/main.2a0ecb70.js",
     "static/media/5thbottom.PNG": "/static/media/5thbottom.69db6bc2ba0899b2a866.PNG",
     "static/media/5thtop.JPEG": "/static/media/5thtop.52e39926a43f826743f8.JPEG",
     "static/media/lastbottom.JPEG": "/static/media/lastbottom.27f45c94c6ced24b44b2.JPEG",
@@ -17,16 +17,16 @@
     "static/media/android-chrome-512x512.png": "/static/media/android-chrome-512x512.012b89525faa5109e91e.png",
     "static/media/Cal_Logo.png": "/static/media/Cal_Logo.102d4edeec7768f6fdbc.png",
     "static/media/jake.jpg": "/static/media/jake.bd1c107755e788d9c8e6.jpg",
+    "static/media/redYelp.png": "/static/media/redYelp.fff5d774e42086a0cf83.png",
     "static/media/github_2111425.png": "/static/media/github_2111425.d3263084234dc705b2ae.png",
-    "static/media/yelpIcon.png": "/static/media/yelpIcon.a28d150b494f561ba12e.png",
     "static/media/message.png": "/static/media/message.8e95dfa4dbf9f73dee63.png",
     "static/media/Email.png": "/static/media/Email.726685267fcbd04d0211.png",
     "index.html": "/index.html",
     "main.0a943cc7.css.map": "/static/css/main.0a943cc7.css.map",
-    "main.4731aa2c.js.map": "/static/js/main.4731aa2c.js.map"
+    "main.2a0ecb70.js.map": "/static/js/main.2a0ecb70.js.map"
   },
   "entrypoints": [
     "static/css/main.0a943cc7.css",
-    "static/js/main.4731aa2c.js"
+    "static/js/main.2a0ecb70.js"
   ]
 }
