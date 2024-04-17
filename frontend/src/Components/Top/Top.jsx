@@ -46,6 +46,14 @@ return (
                     650-222-3931
             </div>
         </a>
+        <a className='top-phone-link' href="https://www.yelp.com/biz/cal-auto-tech-livermore">
+            <div className='top-mobile-phone'>
+                <h1 className='call-now-top'>
+                    Check out our reviews on Yelp!
+                </h1>
+            </div>
+            <img className='top-yelp-link' src={require("../../Assets/Images/icons/yelpIcon.png")} alt="Yelp" />
+        </a>
     </div>
 )}
 export default Top;
