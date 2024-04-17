@@ -52,7 +52,7 @@ return (
                     Check out our reviews on Yelp!
                 </h1>
             </div>
-            <img className='top-yelp-link' src={require("../../Assets/Images/icons/yelpIcon.png")} alt="Yelp" />
+            <img className='top-yelp-link' src={require("../../Assets/Images/icons/redYelp.png")} alt="Yelp" />
         </a>
     </div>
 )}
